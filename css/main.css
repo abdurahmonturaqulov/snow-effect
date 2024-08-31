@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(3, 5, 11);
+    overflow: hidden;
+}
+
+.fa-snowflake {
+    color: aliceblue;
+    position: absolute;
+    padding: -20px;
+    animation: fall linear forwards;
+
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(105vh);
+    }
+}
